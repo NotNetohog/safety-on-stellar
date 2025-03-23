@@ -136,4 +136,8 @@ Safety On Stellar (SOS) offers an elegant solution to a universal problem—acce
 This project aligns perfectly with the *Better Access* track of the Stellar Hackathon by democratizing access to critical medical information, showcasing how blockchain technology can address real-world healthcare challenges effectively.
 
 ---
-> 🌐 Built with ❤️ on the Stellar Blockchain
+> 🇧🇷 SOS was dreamt up and brought to life by Dinarte Neto and Camila de Liz Nunes
+
+
+> 🌐 Built with 🖤 on the Stellar Blockchain
+
