@@ -135,13 +135,10 @@ export default function QRCodePage() {
 
               <div className="text-center mb-2">
                 <div className="text-center">
-                  <span className="font-bold uppercase tracking-widest text-red-600">
+                  <span className=" text-2xl font-bold uppercase tracking-widest text-red-600">
                     MEDICAL ID
                   </span>
                 </div>
-                <p className="text-xs text-muted-foreground">
-                  Contains critical health data
-                </p>
               </div>
             </div>
 
@@ -178,7 +175,7 @@ export default function QRCodePage() {
           <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto mt-8">
             <div className="text-center p-6 border rounded-lg">
               <Stethoscope className="h-8 w-8 mx-auto mb-4 text-red-600" />
-              <h3 className="font-medium mb-2">For Medical Professionals</h3>
+              <h1 className="font-medium mb-2">For Medical Professionals</h1>
               <p className="text-sm text-muted-foreground">
                 Scan QR code to access patient's emergency profile including
                 medical history, allergies, and emergency contacts.
@@ -187,7 +184,7 @@ export default function QRCodePage() {
 
             <div className="text-center p-6 border rounded-lg">
               <Smartphone className="h-8 w-8 mx-auto mb-4 text-red-600" />
-              <h3 className="font-medium mb-2">Digital Backup</h3>
+              <h1 className="font-medium mb-2">Digital Backup</h1>
               <p className="text-sm text-muted-foreground">
                 Save the digital version in your phone's wallet app or email it
                 to trusted contacts.
@@ -196,7 +193,7 @@ export default function QRCodePage() {
 
             <div className="text-center p-6 border rounded-lg">
               <Printer className="h-8 w-8 mx-auto mb-4 text-red-600" />
-              <h3 className="font-medium mb-2">Print Recommendations</h3>
+              <h1 className="font-medium mb-2">Print Recommendations</h1>
               <p className="text-sm text-muted-foreground">
                 Use waterproof paper for physical copies. Ideal for wallets,
                 gear bags, and medical alert bracelets.

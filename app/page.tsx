@@ -57,28 +57,12 @@ export default function Home() {
             </div>
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/emergency-qr-demo.jpg"
-                width={600}
+                src="/sosbanner.png"
+                width={650}
                 height={400}
                 alt="Emergency QR code access demonstration"
                 className="object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-tr from-rose-900/40 to-transparent flex items-end p-8">
-                <div className="bg-white/95 p-4 rounded-xl shadow-lg max-w-md">
-                  <div className="flex items-center gap-3 mb-2">
-                    <div className="bg-rose-100 p-2 rounded-full">
-                      <AlertCircle className="h-5 w-5 text-rose-600" />
-                    </div>
-                    <h3 className="font-semibold text-neutral-900">
-                      Emergency Access
-                    </h3>
-                  </div>
-                  <p className="text-sm text-neutral-600">
-                    Medical professionals can scan your personalized QR code to
-                    access critical information in emergencies.
-                  </p>
-                </div>
-              </div>
             </div>
           </div>
         </div>
@@ -179,9 +163,9 @@ export default function Home() {
                     <div className="flex justify-between items-center mb-6">
                       <div className="flex items-center gap-2">
                         <HeartPulse className="h-6 w-6 text-rose-500" />
-                        <h3 className="text-lg font-semibold text-neutral-900">
+                        <h1 className="text-lg font-semibold text-neutral-900">
                           Medical SOS
-                        </h3>
+                        </h1>
                       </div>
                     </div>
 
@@ -331,7 +315,7 @@ function FeatureCard({
         <div className="w-14 h-14 flex items-center justify-center rounded-full bg-neutral-100">
           {icon}
         </div>
-        <h3 className="text-xl font-semibold text-neutral-900">{title}</h3>
+        <h1 className="text-xl font-semibold text-neutral-900">{title}</h1>
         <p className="text-neutral-600">{description}</p>
       </div>
     </Card>
@@ -362,7 +346,7 @@ function StepCard({
               {number}
             </span>
           </div>
-          <h3 className="text-xl font-semibold text-neutral-900">{title}</h3>
+          <h1 className="text-xl font-semibold text-neutral-900">{title}</h1>
           <p className="text-neutral-600">{description}</p>
         </div>
       </div>
@@ -383,7 +367,7 @@ function MedicalInfoItem({
     <div className="flex items-start gap-3">
       <div className="p-2 bg-rose-100 rounded-lg shrink-0">{icon}</div>
       <div>
-        <h4 className="font-medium text-neutral-900">{title}</h4>
+        <h1 className="font-medium text-neutral-900">{title}</h1>
         <p className="text-sm text-neutral-600">{description}</p>
       </div>
     </div>

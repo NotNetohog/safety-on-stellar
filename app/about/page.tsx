@@ -170,9 +170,9 @@ export default function AboutPage() {
                   <div className="bg-white rounded-lg p-4 border border-neutral-200">
                     <div className="flex items-center gap-2 mb-2">
                       <CheckCircle className="h-4 w-4 text-green-500" />
-                      <h3 className="text-sm font-medium text-neutral-700">
+                      <h1 className="text-sm font-medium text-neutral-700">
                         Critical Data Focus
-                      </h3>
+                      </h1>
                     </div>
                     <p className="text-sm text-neutral-600">
                       Blood type, allergies, medications, medical conditions,
@@ -183,9 +183,9 @@ export default function AboutPage() {
                   <div className="bg-white rounded-lg p-4 border border-neutral-200">
                     <div className="flex items-center gap-2 mb-2">
                       <CheckCircle className="h-4 w-4 text-green-500" />
-                      <h3 className="text-sm font-medium text-neutral-700">
+                      <h1 className="text-sm font-medium text-neutral-700">
                         Universal Access
-                      </h3>
+                      </h1>
                     </div>
                     <p className="text-sm text-neutral-600">
                       Simple QR codes link to a patient's blockchain-secured
@@ -196,9 +196,9 @@ export default function AboutPage() {
                   <div className="bg-white rounded-lg p-4 border border-neutral-200">
                     <div className="flex items-center gap-2 mb-2">
                       <CheckCircle className="h-4 w-4 text-green-500" />
-                      <h3 className="text-sm font-medium text-neutral-700">
+                      <h1 className="text-sm font-medium text-neutral-700">
                         Global Availability
-                      </h3>
+                      </h1>
                     </div>
                     <p className="text-sm text-neutral-600">
                       Works across borders, languages, and healthcare systems
@@ -208,9 +208,9 @@ export default function AboutPage() {
                   <div className="bg-white rounded-lg p-4 border border-neutral-200">
                     <div className="flex items-center gap-2 mb-2">
                       <CheckCircle className="h-4 w-4 text-green-500" />
-                      <h3 className="text-sm font-medium text-neutral-700">
+                      <h1 className="text-sm font-medium text-neutral-700">
                         User Control
-                      </h3>
+                      </h1>
                     </div>
                     <p className="text-sm text-neutral-600">
                       Individuals maintain complete ownership of their medical
@@ -221,9 +221,9 @@ export default function AboutPage() {
                   <div className="bg-white rounded-lg p-4 border border-neutral-200 md:col-span-2">
                     <div className="flex items-center gap-2 mb-2">
                       <CheckCircle className="h-4 w-4 text-green-500" />
-                      <h3 className="text-sm font-medium text-neutral-700">
+                      <h1 className="text-sm font-medium text-neutral-700">
                         Healthcare Provider Simplicity
-                      </h3>
+                      </h1>
                     </div>
                     <p className="text-sm text-neutral-600">
                       No specialized equipment or applications needed beyond a
@@ -257,9 +257,9 @@ export default function AboutPage() {
                     >
                       <div className="flex items-center gap-2 mb-2">
                         {feature.icon}
-                        <h3 className="text-sm font-medium text-neutral-700">
+                        <h1 className="text-sm font-medium text-neutral-700">
                           {feature.title}
-                        </h3>
+                        </h1>
                       </div>
                       <p className="text-sm text-neutral-600">
                         {feature.description}
@@ -290,9 +290,9 @@ export default function AboutPage() {
                     >
                       <div className="flex items-center gap-2 mb-2">
                         {impact.icon}
-                        <h3 className="text-sm font-medium text-neutral-700">
+                        <h1 className="text-sm font-medium text-neutral-700">
                           {impact.title}
-                        </h3>
+                        </h1>
                       </div>
                       <p className="text-sm text-neutral-600">
                         {impact.description}
