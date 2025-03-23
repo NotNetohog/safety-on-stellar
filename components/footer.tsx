@@ -38,7 +38,7 @@ const Footer = () => {
           <div className="space-y-2">
             <div className="font-semibold">Resources</div>
             <Link
-              href="/docs"
+              href="https://github.com/NotNetohog/safety-on-stellar"
               className="block text-sm text-muted-foreground hover:text-primary"
             >
               Documentation
