@@ -1,3 +1,5 @@
+<img src="https://github.com/user-attachments/assets/12e81fd0-b494-41c5-b144-e207f2df380b" width=20% height=50%>
+
 # Safety On Stellar (SOS): Emergency Medical Records on Blockchain
 
 **SOS (Safety On Stellar)** is a blockchain-based emergency medical information system that ensures global access to critical health data during emergencies. By leveraging Stellar's blockchain technology, SOS provides healthcare providers worldwide with instant access to life-saving medical information, overcoming language barriers and geographic limitations.
